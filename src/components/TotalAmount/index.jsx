@@ -1,9 +1,12 @@
 import propTypes from "prop-types";
+import styles from "./style.module.css";
+
+console.log(styles);
 
 const TotalAmount = ({ items }) => {
   const total = items.reduce((acc, item) => acc + item.count * item.price, 0);
 
-  return <p>Total: {total}$</p>;
+  return <p className={styles.totalAmount}>Total: {total}$</p>;
 };
 
 TotalAmount.propTypes = {

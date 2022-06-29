@@ -5,7 +5,7 @@ import TotalAmount from "../../components/TotalAmount";
 
 const initialState = [
   { id: "0", name: "printer", price: 100, count: 2 },
-  { id: "1", name: "RAM", price: 30, count: 2 },
+  { id: "1", name: "RAM", price: 30, count: 0 },
   { id: "2", name: "motherboard", price: 150, count: 1 },
 ];
 
